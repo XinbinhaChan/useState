@@ -13,7 +13,7 @@ export function App() {
 
             <h1 className='text-white text-8xl'>{valor}</h1>
 
-            <button onClick={() => setValor(valor + 1)} className='text-white bg-purple-600 py-2 px-4 rounded-2xl'>Aumentar</button>
+            <button onClick={() => setValor(valor + 100)} className='text-white bg-purple-600 py-2 px-4 rounded-2xl'>Aumentar</button>
 
 
             {mostrar===true ?  <button onClick={trocar} className='text-white bg-blue-600 py-2 px-4 rounded-2xl'>Esconder</button> : <button onClick={trocar} className='text-white bg-blue-600 py-2 px-4 rounded-2xl'>Mostrar</button>}
